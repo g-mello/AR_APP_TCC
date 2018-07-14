@@ -79,11 +79,11 @@
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Guilherme/Desktop/Projects/APP/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Guilherme/Desktop/Projects/APP/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Guilherme/Desktop/Projects/APP/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/Guilherme/Desktop/Projects/APP/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Guilherme/Desktop/Projects/APP/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
