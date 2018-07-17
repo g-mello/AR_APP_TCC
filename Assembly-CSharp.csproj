@@ -62,6 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\CreateDBScript.cs" />
+    <Compile Include="Assets\Scripts\DataService.cs" />
+    <Compile Include="Assets\Scripts\Plants.cs" />
+    <Compile Include="Assets\Scripts\SQLite.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
