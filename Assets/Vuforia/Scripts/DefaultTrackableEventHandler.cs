@@ -8,6 +8,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using System.Collections;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -18,6 +19,11 @@ using Vuforia;
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
     #region PROTECTED_MEMBER_VARIABLES
+
+    public Transform canvas_scanning_not_found;
+    //public Transform canvas_scanning_found;
+    //public Transform canvas_main_menu;
+    //public Transform canvas_info;
 
     protected TrackableBehaviour mTrackableBehaviour;
 
@@ -34,8 +40,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnDestroy()
     {
-        if (mTrackableBehaviour)
-            mTrackableBehaviour.UnregisterTrackableEventHandler(this);
+       // if (mTrackableBehaviour)
+        //    mTrackableBehaviour.UnregisterTrackableEventHandler(this);
     }
 
     #endregion // UNITY_MONOBEHAVIOUR_METHODS
@@ -72,6 +78,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         }
     }
 
+
     #endregion // PUBLIC_METHODS
 
     #region PROTECTED_METHODS
@@ -93,6 +100,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+
+        // From Not Found To Found
+        canvas_scanning_not_found.gameObject.SetActive(false);
+        //canvas_scanning_found.gameObject.SetActive(true);
+
+             
+
     }
 
 
@@ -113,6 +128,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+        // From Found to Not Found
+        //canvas_main_menu.gameObject.SetActive(false);
+        //canvas_scanning_found.gameObject.SetActive(false);
+        canvas_scanning_not_found.gameObject.SetActive(true);
+
     }
 
     #endregion // PROTECTED_METHODS

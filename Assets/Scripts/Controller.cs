@@ -45,7 +45,7 @@ public class Controller : MonoBehaviour
             Debug.Log("Plant Name: " + plant.Name);
 
             //Debug UI
-            ToConsole(plant.ToString());
+            //ToConsole(plant.ToString());
            
         }
 
