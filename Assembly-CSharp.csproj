@@ -61,14 +61,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controller.cs" />
-    <Compile Include="Assets\Scripts\CreateDBScript.cs" />
-    <Compile Include="Assets\Scripts\DataService.cs" />
-    <Compile Include="Assets\Scripts\Plants.cs" />
-    <Compile Include="Assets\Scripts\SQLite.cs" />
-    <Compile Include="Assets\Scripts\Start_Found_UI.cs" />
-    <Compile Include="Assets\Scripts\Tags.cs" />
-    <Compile Include="Assets\Scripts\UI_Manager.cs" />
+    <Compile Include="Assets\Scripts\Backend\Controller.cs" />
+    <Compile Include="Assets\Scripts\Backend\CreateDBScript.cs" />
+    <Compile Include="Assets\Scripts\Backend\DataService.cs" />
+    <Compile Include="Assets\Scripts\Backend\Plants.cs" />
+    <Compile Include="Assets\Scripts\Backend\SQLite.cs" />
+    <Compile Include="Assets\Scripts\Frontend\Found_UI.cs" />
+    <Compile Include="Assets\Scripts\Frontend\Start_Found_UI.cs" />
+    <Compile Include="Assets\Scripts\Frontend\Tags.cs" />
+    <Compile Include="Assets\Scripts\Frontend\UI_Manager.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
