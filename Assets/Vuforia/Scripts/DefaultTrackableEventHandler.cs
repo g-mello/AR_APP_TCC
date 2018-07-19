@@ -21,6 +21,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
     #region PROTECTED_MEMBER_VARIABLES
 
+    //UI APP
     public Transform canvas_scanning_not_found;
     public Transform canvas_scanning_found;
     public Transform canvas_main_menu;
@@ -28,6 +29,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     public Transform canvas_info_soil;
     public Transform canvas_info_sun;
     public Transform canvas_info_water;
+
+    //UI_How_To_Plant
+    public Transform step1;
+    public Transform step2;
+    public Transform step3;
+    public Transform step4;
+    public Transform step5;
 
     protected TrackableBehaviour mTrackableBehaviour;
 
@@ -142,13 +150,19 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         canvas_info_soil.gameObject.SetActive(false);
         canvas_info_water.gameObject.SetActive(false);
         canvas_info_sun.gameObject.SetActive(false);
-       
-        
+
+        step1.gameObject.SetActive(false);
+        step2.gameObject.SetActive(false);
+        step3.gameObject.SetActive(false);
+        step4.gameObject.SetActive(false);
+        step5.gameObject.SetActive(false);
+
+
         //Start_Found_UI.onTracking = false;
         //Start_Found_UI.lostLastTracking = true;
         //Start_Found_UI.active = false;
-        
-        
+
+
     }
 
     #endregion // PROTECTED_METHODS
