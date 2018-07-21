@@ -77,6 +77,22 @@ public class UI_Manager : MonoBehaviour {
         {
             infoSun.gameObject.SetActive(false);
         }
+        else if( active == "step1")
+        {
+            step1.gameObject.SetActive(false);
+        }
+        else if (active == "step2")
+        {
+            step2.gameObject.SetActive(false);
+        }
+        else if (active == "step3")
+        {
+            step3.gameObject.SetActive(false);
+        }
+        else if (active == "step4")
+        {
+            step4.gameObject.SetActive(false);
+        }
         else
         {
             step5.gameObject.SetActive(false);
@@ -99,49 +115,56 @@ public class UI_Manager : MonoBehaviour {
     {
         mainMenu.gameObject.SetActive(false);
         step1.gameObject.SetActive(true);
-        //active = "step1";
+        active = "step1";
 
     }
     
     public void From_Step1_to_Step2() {
         step1.gameObject.SetActive(false);
         step2.gameObject.SetActive(true);
-        //active = "step2";
+        active = "step2";
     }
     public void From_Step2_to_Step1(){
         step1.gameObject.SetActive(true);
         step2.gameObject.SetActive(false);
-        //active = "step1";
+        active = "step1";
     }
 
     public void From_Step2_to_Step3() {
         step2.gameObject.SetActive(false);
         step3.gameObject.SetActive(true);
-        //active = "step3";
+        active = "step3";
     }
     public void From_Step3_to_Step2(){
         step3.gameObject.SetActive(false);
         step2.gameObject.SetActive(true);
-        //active = "step2";
+        active = "step2";
     }
 
     public void From_Step3_to_Step4()
     {
         step3.gameObject.SetActive(false);
         step4.gameObject.SetActive(true);
-        //active = "step4";
+        active = "step4";
     }
     public void From_Step4_to_Step3()
     {
         step3.gameObject.SetActive(true);
         step4.gameObject.SetActive(false);
-        //active = "step3";
+        active = "step3";
     }
 
     public void From_Step4_to_Step5()
     {
         step4.gameObject.SetActive(false);
         step5.gameObject.SetActive(true);
+        active = "step5";
+    }
+
+    public void From_Step5_to_Step4()
+    {
+        step4.gameObject.SetActive(true);
+        step5.gameObject.SetActive(false);
         active = "step5";
     }
 
