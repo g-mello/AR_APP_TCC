@@ -61,6 +61,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\UTJ\Alembic\Editor\Exporter\AlembicExporterEditor.cs" />
+    <Compile Include="Assets\UTJ\Alembic\Editor\Importer\AlembicImporter.cs" />
+    <Compile Include="Assets\UTJ\Alembic\Editor\Importer\AlembicImporterEditor.cs" />
+    <Compile Include="Assets\UTJ\Alembic\Editor\Importer\AlembicStreamDescriptorEditor.cs" />
+    <Compile Include="Assets\UTJ\Alembic\Editor\Importer\AlembicStreamPlayerEditor.cs" />
+    <Compile Include="Assets\UTJ\Alembic\Editor\Misc\BoolDrawer.cs" />
+    <Compile Include="Assets\UTJ\Alembic\Editor\Timeline\AlembicRecorderClipEditor.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />

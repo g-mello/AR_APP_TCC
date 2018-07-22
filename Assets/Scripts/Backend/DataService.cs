@@ -64,6 +64,9 @@ public class DataService  {
 
 	}
 
+
+    // ========= DB =========================================== 
+
 	public void CreateDB(){
 		_connection.DropTable<Plants> ();
 		_connection.CreateTable<Plants> ();
@@ -79,12 +82,34 @@ public class DataService  {
         _connection.InsertAll(new[]{
             new Plants{
                 Id = 1,
-                Name = "Petunia"
+                Nome_Popular = "XXX",
+                Nome_Cientifico = "XXX",
+                Familia = "XXX",
+                Origem = "XXX",
+                Altura = 1.1f,
+                Ciclo_Vida = "XXX",
+                Substrato = "XXX",
+                Adubo = "XXX",
+                Periodo_Adubo = "XXX",
+                Luminosidade = "XXX",
+                Clima = "XXX",
+                Qtd_Regas = "XXX"
 
             },
             new Plants{
-                Id = 2,
-                Name = "Cravinia"
+                Id = 1,
+                Nome_Popular = "YYY",
+                Nome_Cientifico = "YYY",
+                Familia = "YYY",
+                Origem = "YYY",
+                Altura = 1.1f,
+                Ciclo_Vida = "YYY",
+                Substrato = "YYY",
+                Adubo = "YYY",
+                Periodo_Adubo = "YYY",
+                Luminosidade = "YYY",
+                Clima = "YYY",
+                Qtd_Regas = "YYY"
             }
         });
        
