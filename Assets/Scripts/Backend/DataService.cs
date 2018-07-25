@@ -82,18 +82,19 @@ public class DataService  {
         _connection.InsertAll(new[]{
             new Plants{
                 Id = 1,
-                Nome_Popular = "XXX",
-                Nome_Cientifico = "XXX",
-                Familia = "XXX",
-                Origem = "XXX",
-                Altura = 1.1f,
-                Ciclo_Vida = "XXX",
-                Substrato = "XXX",
-                Adubo = "XXX",
-                Periodo_Adubo = "XXX",
-                Luminosidade = "XXX",
-                Clima = "XXX",
-                Qtd_Regas = "XXX"
+                Nome_Popular = "Impatiens",
+                Nome_Cientifico = "<i>Impatiens Hawkeri</i>",
+                Familia = "Balsaminaceae",
+                Origem = "África",
+                Altura = "0.3 a 0.4 metros",
+                Floracao = "Anual",
+                Ciclo_Vida = "Perene",
+                Substrato = "Fértil, bem drenável e enriquecido com matéria orgânica",
+                Adubo = "Orgânico ou NPK 10-10-10",
+                Periodo_Adubo = "Adubações Periódicas cada 15 dias",
+                Luminosidade = "Ambiente com luz difusa, meia sombra",
+                Clima = "Não tolera seca ou sol e calor intenso",
+                Qtd_Regas = "Frequentes cerca de 3 vezes por semana"
 
             },
             new Plants{
@@ -102,7 +103,8 @@ public class DataService  {
                 Nome_Cientifico = "YYY",
                 Familia = "YYY",
                 Origem = "YYY",
-                Altura = 1.1f,
+                Altura = "YYY",
+                Floracao = "XXX",
                 Ciclo_Vida = "YYY",
                 Substrato = "YYY",
                 Adubo = "YYY",

@@ -8,7 +8,8 @@ public class Plants  {
     public string Nome_Cientifico { get; set; }
     public string Familia { get; set; }
     public string Origem { get; set; }
-    public float Altura { get; set; }
+    public string Altura { get; set; }
+    public string Floracao { get; set; }
     public string Ciclo_Vida { get; set; }
     public string Substrato { get; set; }
     public string Adubo { get; set; }
@@ -26,13 +27,14 @@ public class Plants  {
             " Familia={3}\n " +
             " Origem={4}\n " +
             " Altura={5}\n " +
-            " Ciclo_Vida={6}\n " +
-            " Substrato={7}\n " +
-            " Adubo={8}\n " +
-            " Perido_Adubo={9}\n " +
-            " Luminosidade={10}\n " +
-            " Clima={11}\n " +
-            " Qtd_Regas={12}\n", Id, Nome_Popular, Nome_Cientifico, Familia, Origem, Altura,
+            " Floracao={6}\n " +
+            " Ciclo_Vida={7}\n " +
+            " Substrato={8}\n " +
+            " Adubo={9}\n " +
+            " Perido_Adubo={10}\n " +
+            " Luminosidade={11}\n " +
+            " Clima={12}\n " +
+            " Qtd_Regas={13}\n", Id, Nome_Popular, Nome_Cientifico, Familia, Origem, Altura, Floracao,
                                  Ciclo_Vida, Substrato, Adubo, Periodo_Adubo, Luminosidade,
                                  Clima, Qtd_Regas);
 	}

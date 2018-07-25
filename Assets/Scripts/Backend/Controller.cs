@@ -112,12 +112,13 @@ public class Controller : MonoBehaviour
     {
         Text descricao = Plant_Description.GetComponent<Text>();
 
-        descricao.text = "\nNome Popular: " + p.Nome_Popular + "\n\n" +
-                         "Nome Científico: " + p.Nome_Cientifico + "\n\n" +
-                         "Família: " + p.Familia + "\n\n" +
-                         "Origem: " + p.Origem + "\n\n" +
-                         "Altura: " + p.Altura + "\n\n" +
-                         "Ciclo de Vida: " + p.Ciclo_Vida + "\n";
+        descricao.text = "\n<b>Nome Popular: </b>" + p.Nome_Popular + "\n\n" +
+                         "<b>Nome Científico: </b>" + p.Nome_Cientifico + "\n\n" +
+                         "<b>Família: </b>" + p.Familia + "\n\n" +
+                         "<b>Origem: </b>" + p.Origem + "\n\n" +
+                         "<b>Altura: </b>" + p.Altura +  "\n\n" +
+                         "<b>Floração: </b>" + p.Floracao + "\n\n" +
+                         "<b>Ciclo de Vida: </b>" + p.Ciclo_Vida + "\n";
 
     }
 
@@ -126,9 +127,9 @@ public class Controller : MonoBehaviour
     {
         Text descricao = Soil_Description.GetComponent<Text>();
 
-        descricao.text = "\nSubstrato Ideal: " + p.Substrato + "\n\n" +
-                         "Tipo de Adubo: " + p.Adubo + "\n\n" +
-                         "Período de Adubagem: " + p.Periodo_Adubo + "\n";
+        descricao.text = "\n<b>Substrato Ideal: </b>" + p.Substrato + "\n\n" +
+                         "<b>Tipo de Adubo: </b>" + p.Adubo + "\n\n" +
+                         "<b>Período de Adubagem: </b>" + p.Periodo_Adubo + "\n";
             
     }
 
@@ -137,7 +138,8 @@ public class Controller : MonoBehaviour
     {
         Text descricao = Water_Description.GetComponent<Text>();
 
-        descricao.text = "\nQuantidade de Regas: " + p.Qtd_Regas; 
+        descricao.text = "\n<b>Quantidade de Regas: </b>" + p.Qtd_Regas;
+        
     }
 
     //Write to the Sun Info UI the info collected from the DB related to the Luminosity
@@ -145,8 +147,8 @@ public class Controller : MonoBehaviour
     {
         Text descricao = Sun_Description.GetComponent<Text>();
 
-        descricao.text = "\nLuminosidade: " + p.Luminosidade + "\n\n" +
-                         "Clima: " + p.Clima + "\n";
+        descricao.text = "\n<b>Luminosidade: </b>" + p.Luminosidade + "\n\n" +
+                         "<b>Clima: </b>" + p.Clima + "\n";
 
     }
 
