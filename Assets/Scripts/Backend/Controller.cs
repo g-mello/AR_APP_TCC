@@ -14,48 +14,32 @@ public class Controller : MonoBehaviour
     public Transform Water_Description;
     public Transform Sun_Description;
 
-
-
     //Vumark 
     private VuMarkManager mVuMarkManager;
    
     //private DataService ds;
-
-
     void Start()
     {
         mVuMarkManager = TrackerManager.Instance.GetStateManager().GetVuMarkManager();
         //ds = new DataService("tempDatabase.db");
         StartSync();
-
-        
     }
 
 
     void FixedUpdate()
     {
-
-        var ds = new DataService("tempDatabase.db"); //Start a connection with the DB
         Plants plant;
         int targetID;
+
+        var ds = new DataService("tempDatabase.db"); //Start a connection with the DB
 
         //Get the current Target ID from the target has been tracked
         // Get the information of the plant based on the tracked Target ID
         foreach (var vmark in mVuMarkManager.GetActiveBehaviours())
         {
-
             targetID = System.Convert.ToInt32(vmark.VuMarkTarget.InstanceId.NumericValue);
 
             plant = ds.GetPlantByID(targetID);
-
-            // Debug Data
-            Debug.Log(message: "Target ID: " + targetID);
-            Debug.Log( "Plant ID: " + System.Convert.ToString(plant.Id));
-            Debug.Log("Popular Name: " + plant.Nome_Popular);
-
-
-            //Debug UI
-            //ToConsole(plant.ToString());
 
             // Write to UI Elements
             WriteMainMenuTitle(plant);
@@ -63,11 +47,16 @@ public class Controller : MonoBehaviour
             WriteSoilInfo(plant);
             WriteSunInfo(plant);
             WriteWaterInfo(plant);
+
+            // Debug Data
+            //Debug.Log(message: "Target ID: " + targetID);
+            //Debug.Log( "Plant ID: " + System.Convert.ToString(plant.Id));
+            //Debug.Log("Popular Name: " + plant.Nome_Popular);
+
+            //Debug UI
+            //ToConsole(plant.ToString());
            
         }
-
-
-
     }
 
 
