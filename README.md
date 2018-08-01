@@ -38,7 +38,7 @@ It's begins by looking for a registered VuMark in the scene, analyzing each fram
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass03.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass04.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass05.png)
-![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass06.png)
+
 
 
 
