@@ -116,7 +116,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         // From Not Found To Found
         canvas_scanning_not_found.gameObject.SetActive(false);
-        canvas_scanning_found.gameObject.SetActive(true);
+        //canvas_scanning_found.gameObject.SetActive(true);
+        canvas_main_menu.gameObject.SetActive(true);
         
        
                  
@@ -144,7 +145,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // From Found to Not Found
         canvas_scanning_not_found.gameObject.SetActive(true);
 
-        canvas_scanning_found.gameObject.SetActive(false);
+        //canvas_scanning_found.gameObject.SetActive(false);
         canvas_main_menu.gameObject.SetActive(false);
         canvas_info_plant.gameObject.SetActive(false);
         canvas_info_soil.gameObject.SetActive(false);

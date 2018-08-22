@@ -66,7 +66,9 @@
     <Compile Include="Assets\Scripts\Backend\DataService.cs" />
     <Compile Include="Assets\Scripts\Backend\Plants.cs" />
     <Compile Include="Assets\Scripts\Backend\SQLite.cs" />
+    <Compile Include="Assets\Scripts\Frontend\DropDown.cs" />
     <Compile Include="Assets\Scripts\Frontend\Found_UI.cs" />
+    <Compile Include="Assets\Scripts\Frontend\Intro.cs" />
     <Compile Include="Assets\Scripts\Frontend\Start_Found_UI.cs" />
     <Compile Include="Assets\Scripts\Frontend\Tags.cs" />
     <Compile Include="Assets\Scripts\Frontend\UI_Manager.cs" />
