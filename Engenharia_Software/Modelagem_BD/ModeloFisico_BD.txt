@@ -1,0 +1,41 @@
+$sqlite3 APP.db
+
+CREATE TABLE tb_planta(
+   id_planta INT PRIMARY KEY     NOT NULL,
+   id_marcador 		  INT 	 NOT NULL,
+   nome_popular           TEXT    NOT NULL,
+   nome_cientifico	  TEXT	  NOT NULL,
+   familia		  TEXT	  NOT NULL,
+   floracao		  TEXT	  NOT NULL,
+   ciclo_vida		  TEXT	  NOT NULL,	
+   substrato              TEXT	  NOT NULL,
+   tipo_adubo             TEXT	  NOT NULL,
+   adubagem               TEXT	  NOT NULL,
+   luminosidade           TEXT	  NOT NULL,
+   clima                  TEXT	  NOT NULL, 
+   qtd_agua               TEXT	  NOT NULL
+);
+
+
+CREATE TABLE tb_estabelecimento(
+   id_estabelecimento INT PRIMARY KEY NOT NULL,
+   cnpj	              TEXT NOT NULL,
+   nome		      TEXT NOT NULL,	
+   telefone           TEXT NOT NULL,
+   endereco           TEXT NOT NULL,
+   numero             TEXT NOT NULL,
+   complemento        TEXT,
+   cidade	      TEXT NOT NULL,
+   estado             TEXT NOT NULL 
+
+);
+
+CREATE TABLE tb_usuario(
+   id_usuario INT PRIMARY KEY NOT NULL,
+   nome	              TEXT NOT NULL,
+   sobrenome		      TEXT NOT NULL,	
+   telefone           TEXT NOT NULL,
+   email           TEXT NOT NULL,
+   senha 	   TEXT NOT NULL
+   
+);
