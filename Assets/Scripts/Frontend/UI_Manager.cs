@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class UI_Manager : MonoBehaviour {
@@ -20,6 +21,7 @@ public class UI_Manager : MonoBehaviour {
     public Transform step3;
     public Transform step4;
     public Transform step5;
+    public Transform step6;
 
     //Active UI
     private string active;
@@ -93,9 +95,13 @@ public class UI_Manager : MonoBehaviour {
         {
             step4.gameObject.SetActive(false);
         }
-        else
+        else if( active == "step5")
         {
             step5.gameObject.SetActive(false);
+        }
+        else
+        {
+            step6.gameObject.SetActive(false);
         }
 
         mainMenu.gameObject.SetActive(true);
@@ -165,9 +171,26 @@ public class UI_Manager : MonoBehaviour {
     {
         step4.gameObject.SetActive(true);
         step5.gameObject.SetActive(false);
+        active = "step4";
+    }
+
+    public void From_Step5_to_Step6()
+    {
+        step5.gameObject.SetActive(false);
+        step6.gameObject.SetActive(true);
+        active = "step6";
+    }
+
+    public void From_Step6_to_Step5()
+    {
+        step5.gameObject.SetActive(true);
+        step6.gameObject.SetActive(false);
         active = "step5";
     }
 
-
+    public void Load_Scene_Select_Garden_Center()
+    {
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
 
 }// End Class

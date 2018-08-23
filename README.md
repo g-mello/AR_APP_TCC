@@ -1,4 +1,3 @@
-
 ## Description
 
 This augmented reality app is part of my graduation assignment, which has been build using techologies such as the Game Engine Unity, the Vuforia SDK and the Autodesk Maya. The main intend of the project is create a mobile application, that assists the choosing and growing of ornamental plants at the Garden Centers, one of the reasons for that is the lack of information of what is the best way to grow each plant. The team of Vuforia has provided a nice feature called VuMark, which is a way to create a Data Base of the well known Fiducial Maker, but in a more branding approach. Using this kind of maker opens up the possibility of using brand logo to represent unique makers, beside the fact that it's easier for the user to look up them in the space.
@@ -27,8 +26,9 @@ ____
 
 It's begins by looking for a registered VuMark in the scene, analyzing each frame of the camera. Then the data of Ornamental Plant is going to be retrived of the SQLite Database and the Main Menu UI is going to be loaded showing 5 Options: Plant, Soil, Water, Sun, How To Plant. Each one showing especific information about Plant, the last option is a guide to help the user to plant his choosing plant. 
 
+![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Select_Dropdown.png)
+![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Intro.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Search_Marker.png)
-![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Start.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Menu.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Plant_Info.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Soil_Info.png)
@@ -38,13 +38,3 @@ It's begins by looking for a registered VuMark in the scene, analyzing each fram
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass03.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass04.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Pass05.png)
-
-
-
-
-
-
-
-
-
-
