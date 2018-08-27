@@ -26,8 +26,8 @@ ____
 
 It's begins by looking for a registered VuMark in the scene, analyzing each frame of the camera. Then the data of Ornamental Plant is going to be retrived of the SQLite Database and the Main Menu UI is going to be loaded showing 5 Options: Plant, Soil, Water, Sun, How To Plant. Each one showing especific information about Plant, the last option is a guide to help the user to plant his choosing plant. 
 
-![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Intro.png=360x640)
-![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Select_Dropdown.png=360x640)
+![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Intro.png)
+![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Select_Dropdown.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Search_Marker.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Menu.png)
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/Plant_Info.png)
