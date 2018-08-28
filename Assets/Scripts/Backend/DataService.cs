@@ -91,27 +91,43 @@ public class DataService  {
                 Ciclo_Vida = "Perene",
                 Substrato = "Fértil, bem drenável e enriquecido com matéria orgânica",
                 Adubo = "Orgânico ou NPK 10-10-10",
-                Periodo_Adubo = "Adubações Periódicas cada 15 dias",
+                Periodo_Adubo = "Adubações Periódicas a cada 15 dias",
                 Luminosidade = "Ambiente com luz difusa, meia sombra",
                 Clima = "Não tolera seca ou sol e calor intenso",
                 Qtd_Regas = "Frequentes cerca de 3 vezes por semana"
 
             },
             new Plants{
-                Id = 1,
-                Nome_Popular = "YYY",
-                Nome_Cientifico = "YYY",
-                Familia = "YYY",
-                Origem = "YYY",
-                Altura = "YYY",
-                Floracao = "XXX",
-                Ciclo_Vida = "YYY",
-                Substrato = "YYY",
-                Adubo = "YYY",
-                Periodo_Adubo = "YYY",
-                Luminosidade = "YYY",
-                Clima = "YYY",
-                Qtd_Regas = "YYY"
+                Id = 2,
+                Nome_Popular = "Cravina",
+                Nome_Cientifico = "<i>Dianthus chinensis</i>",
+                Familia = "Caryophyllaceae",
+                Origem = "Ásia, Europa",
+                Altura = "0.1 a 0.3 metros",
+                Floracao = "Anual",
+                Ciclo_Vida = "Bienal, Perene",
+                Substrato = "Solo Fértil, bem drenável e enriquecido com matéria orgânica",
+                Adubo = "Orgânico ou NPK 15-10-10",
+                Periodo_Adubo = "Adubações Periódicas a cada 15 dias",
+                Luminosidade = "Deve ser cultivada em sol pleno, minímo de 3 horas de sol.",
+                Clima = "Preferência por clima frio.",
+                Qtd_Regas = "Regas regulares de 3 vezes por semana."
+            },
+            new Plants{
+                Id = 3,
+                Nome_Popular = "Crisântemo",
+                Nome_Cientifico = "<i>Chrysanthemum morifolium</i>",
+                Familia = "Asteraceae",
+                Origem = "Ásia, China, Japão",
+                Altura = "0.3 a 0.4 metros",
+                Floracao = "Inverno",
+                Ciclo_Vida = "Perene",
+                Substrato = "Solo Fértil, bem drenável e enriquecido com matéria orgânica",
+                Adubo = "Orgânico ou NPK 10-15-10",
+                Periodo_Adubo = "Adubações Periódicas a cada 15 dias",
+                Luminosidade = "Deve ser cultivada a meia sombra.",
+                Clima = "Se adapta bem ao clima de diversas regiões.",
+                Qtd_Regas = "Regas regulares de 3 vezes por semana."
             }
         });
        

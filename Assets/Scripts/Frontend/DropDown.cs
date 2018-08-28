@@ -7,15 +7,26 @@ public class DropDown : MonoBehaviour {
 
     //State 
     public UnityEngine.UI.Dropdown dropdown_state;
-    List<string> states = new List<string>() { "Estado", "São Paulo", "Rio de Janeiro","Minas Gerais", "Espirito Santo" };
+    List<string> states = new List<string>() { "Estado", "Acre", "Alagoas","Amapá", "Amazonas", "Bahia",
+                                               "Ceará", "Distrito Federal", "Goiás", "Maranhão", "Mato Grosso",
+                                               "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná",
+                                               "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte",
+                                               "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo",
+                                               "Sergipe", "Tocantins"
+                                                };
     
     // City
     public UnityEngine.UI.Dropdown dropdown_city;
-    List<string> cities = new List<string>() { "Cidade", "Batatais", "Franca", "Ribeirão Preto" };
+    List<string> cities_sp = new List<string>() { "Cidade","Araraquara", "Barretos", "Batatais", "Bauru",
+                                                "Campinas", "Campos do Jordão", "Cedral", "Diadema", "Dracena", "Dumont",
+                                                "Embu", "Franca", "Francisco Morato","Guará","Guaíra", "Holambra", "Hortolândia",
+                                               "Ibitinga", "Indaiatuba", "Igarapaga","Jaboticabal", "Jadinópolis", "Jaú",
+                                               "Leme", "Marília", "Matão", "Osasco", "Piracicaba", "Presidente Prudente",
+                                               "Ribeirão Preto", "Rio Claro", "Santos", "São Carlos", "São Paulo", "Taubaté"}; 
 
     // Garden Center
     public UnityEngine.UI.Dropdown dropdown_garden_center;
-    List<string> garden_centers = new List<string>() { "Estabelecimento", "Floricultura XYZ", "Garden Center TCC" };
+    List<string> garden_centers = new List<string>() { "Estabelecimento", "Exemplo TCC" };
 
     //Selected Values
     private static string selected_state;
@@ -34,7 +45,7 @@ public class DropDown : MonoBehaviour {
 
         // City Dropdown
         dropdown_city.ClearOptions();
-        dropdown_city.AddOptions(cities);
+        dropdown_city.AddOptions(cities_sp);
 
         // Garden Centers Dropdown
         dropdown_garden_center.ClearOptions();
@@ -50,7 +61,7 @@ public class DropDown : MonoBehaviour {
 
     public void DropdownSelectedCity(int index)
     {
-        selected_city = cities[index];
+        selected_city = cities_sp[index];
         Debug.Log(selected_city);
     }
 
