@@ -1,13 +1,14 @@
 ## Description
 
-This augmented reality app is part of my graduation assignment, which has been build using techologies such as the Game Engine Unity, the Vuforia SDK and the Autodesk Maya. The main intend of this project is to create a mobile application, that assists the choosing and the growing of ornamental plants by customers of Garden Centers. One of the reasons for that, is the lack of information about which is the best way to grow each plant. 
-The Vuforia's team has provided a nice and solide feature called VuMark, which is a way to create a Data Base of unique Makers. Based upon these we can build up an Augmented Reality experience, in a sort of branding way. Using this kind of maker opens up the possibility of using brand logo along with unique indentification. It makes easier for the user to look the markers up in the real world space.
+This augmented reality app is part of my graduation assignment, which has been build using techologies such as the Game Engine Unity, the Vuforia SDK and the Autodesk Maya. The main intend of this project is to create a mobile application, that assists the choosing and the growing of ornamental plants by customers of Garden Centers. One of the reasons for that, is the lack of information about which is the best way to grow each plant.
+<br>The Vuforia's team has provided a nice and solide feature called VuMark, which is a way to create a Data Base of unique Makers. Based upon these we can build up an Augmented Reality experience, in a sort of branding way. Using this kind of maker opens up the possibility of using brand logo along with unique indentification. It makes easier for the user to look the markers up in the real world space.
 If you want to know more about VuMarks and the Vuforia you can reach out them with the following link : https://library.vuforia.com/articles/Training/VuMark
 
 The Project's Vurmark Template:
 
 ![alt text](https://raw.githubusercontent.com/g-mello/AR_APP_TCC/master/Images_README/VuMarkExemploArtigo.png)
-Which is used to generate the dataset of brand new markers.
+
+<br>Which is used to generate the dataset of brand new markers.
 
 ____
 
